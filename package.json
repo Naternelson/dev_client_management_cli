@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "arg": "^5.0.1"
-  }
+  },
+  "bin": {
+    "@naternelson/create-test": "bin/create-test",
+    "create-test": "bin/create-test"
+  },
 }
