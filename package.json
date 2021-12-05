@@ -4,16 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
+  "type": "module",
   "license": "ISC",
   "dependencies": {
-    "arg": "^5.0.1"
+    "@babel/preset-env": "^7.16.4",
+    "arg": "^5.0.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^27.4.2",
+    "jest": "^27.4.3"
   },
   "bin": {
-    "@naternelson/create-test": "bin/create-test",
-    "create-test": "bin/create-test"
-  },
+    "@naternelson/create-test": "bin/dev",
+    "create-test": "bin/dev"
+  }
 }
